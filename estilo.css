@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+    width: 100%   
+}
+.cabecalho{
+    background-image: url("imagens/banner.png");
+  
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+.cabecalho img{
+
+    width: 90%;
+    height: 400px;
+}
+.img-banner{
+    
+    height: 400px;
+    width: 400px;
+    
+}
+.titulo{
+    
+    width: 300px;
+    font-family: "pacifico";
+    color: white;
+    font-size: 1.5em;
+    transform: translate(0px, 80px);
+
+    
+
+}
+.subtitulo{
+    
+    width: 300px;
+    color: white;
+
+
+}
+.icones-cabecalho{
+    width: 200px;
+    transform: translate(0px, -90px);
+    justify-content: space-around;
+
+}
+.icones-cabecalho img{
+
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.icones-content{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.engrenagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.engrenagem img{
+    margin:auto;
+
+}
+.estrela{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.estrela img{
+    margin:auto;
+
+}
+.globo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.globo img{
+    margin:auto;
+
+}
+.content-icones-corpo{
+
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.content-engrenagem{
+    width: 300px;
+    height: 50px;
+    transform: translate(center); 
+}
+.content-engrenagem p{
+    align-content: center;
+    text-align: center;
+    transform: translate(0px, -40px);
+   
+}
+.content-engrenagem h2{
+    text-align: center;
+    transform: translate(0px, -30px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-estrela{
+    width: 300px;
+    height: 50px;
+    transform: translate(center); 
+}
+
+.content-estrela h2{
+    text-align: center;
+    transform: translate(0px, -30px);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.content-icones-corpo P{
+    align-content: center;
+    text-align: center;
+    transform: translate(0px, -40px);
+
+}
+.content-globo{
+    width: 300px;
+    height: 50px;
+    transform: translate(center); 
+}
+
+.content-globo h2{
+    text-align: center;
+    transform: translate(0px, -30px);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.content-icones-globo P{
+    align-content: center;
+    text-align: center;
+    transform: translate(0px, -40px);
+
+}
+.content-corpo-video{
+     width: 100%;
+    height: 300px;
+    background-color: Gainsboro;
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.corpo-texto{
+    width: 400px;
+    word-wrap: break-word;
+}
+.corpo-form{
+
+    width: 230px;
+    margin-bottom: 100px;
+}
+.corpo-video{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    height: 20px;
+ 
+}
+
+form{
+
+    background-color: green;
+    border-radius: 5px;
+  
+}
+button{
+    background: green;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    align-content: center;
+    justify-content: center; 
+    text-align: center;
+    height: 40px;
+    display: contents;
+    padding: 2px;
+    
+
+
+}
+button:hover{
+    color: greenyellow;
+}
+.formulario{
+
+    height: 25px;
+}
